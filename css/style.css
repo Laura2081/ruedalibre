@@ -1,0 +1,60 @@
+
+:root {
+    --color-principal: #9ceaa0;
+    --color-secundario: #f9ae35;
+    --color-fondo: #f3e9e9;
+    --color-texto: #333333;
+    --color-blanco: #FFFFFF;
+
+    --espacio-pequeno: 0.5rem;
+    --espacio-medio: 1rem;
+    --espacio-grande: 2rem;
+}
+
+body {
+    color: var(--color-texto);
+    background-color: var(--color-fondo);
+}
+
+
+.logo {
+    width: auto;
+    height: 80px;
+    display: block;
+}
+
+nav {
+    background-color: var(--color-principal);
+    padding: var(--espacio-medio);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: var(--espacio-grande);
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    color: var(--color-texto);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* ===== FONDO DE LA PORTADA ===== */
+.portada {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/imagesss.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+}
+
+
+.encuentranos {
+    background-color: var(--color-principal);
+}
+footer {
+    background-color: var(--color-texto);
+    color: var(--color-blanco);
+}
